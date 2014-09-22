@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB2D125919CC581700131F46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D125819CC581700131F46 /* AppDelegate.swift */; };
+		EB2D125B19CC581700131F46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D125A19CC581700131F46 /* ViewController.swift */; };
+		EB2D125E19CC581700131F46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB2D125C19CC581700131F46 /* Main.storyboard */; };
+		EB2D126019CC581700131F46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB2D125F19CC581700131F46 /* Images.xcassets */; };
+		EB2D126C19CC581700131F46 /* Hack_the_North_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB2D126B19CC581700131F46 /* Hack_the_North_DemoTests.swift */; };
+		EB75C8F219CC5D3A00EAFB68 /* cosmicbyte-square-big-crop.png in Resources */ = {isa = PBXBuildFile; fileRef = EB75C8F119CC5D3A00EAFB68 /* cosmicbyte-square-big-crop.png */; };
+		EB75C8F519CC5E7C00EAFB68 /* button1.png in Resources */ = {isa = PBXBuildFile; fileRef = EB75C8F319CC5E7C00EAFB68 /* button1.png */; };
+		EB75C8F619CC5E7C00EAFB68 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = EB75C8F419CC5E7C00EAFB68 /* button2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB2D126619CC581700131F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB2D124B19CC581700131F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB2D125219CC581700131F46;
+			remoteInfo = "Hack the North Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB2D125319CC581700131F46 /* Hack the North Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hack the North Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2D125719CC581700131F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2D125819CC581700131F46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB2D125A19CC581700131F46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB2D125D19CC581700131F46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB2D125F19CC581700131F46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB2D126519CC581700131F46 /* Hack the North DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hack the North DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB2D126A19CC581700131F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB2D126B19CC581700131F46 /* Hack_the_North_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_the_North_DemoTests.swift; sourceTree = "<group>"; };
+		EB75C8F119CC5D3A00EAFB68 /* cosmicbyte-square-big-crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cosmicbyte-square-big-crop.png"; sourceTree = "<group>"; };
+		EB75C8F319CC5E7C00EAFB68 /* button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button1.png; sourceTree = "<group>"; };
+		EB75C8F419CC5E7C00EAFB68 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB2D125019CC581700131F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D126219CC581700131F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB2D124A19CC581700131F46 = {
+			isa = PBXGroup;
+			children = (
+				EB2D125519CC581700131F46 /* Hack the North Demo */,
+				EB2D126819CC581700131F46 /* Hack the North DemoTests */,
+				EB2D125419CC581700131F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB2D125419CC581700131F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D125319CC581700131F46 /* Hack the North Demo.app */,
+				EB2D126519CC581700131F46 /* Hack the North DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB2D125519CC581700131F46 /* Hack the North Demo */ = {
+			isa = PBXGroup;
+			children = (
+				EB75C8F319CC5E7C00EAFB68 /* button1.png */,
+				EB75C8F419CC5E7C00EAFB68 /* button2.png */,
+				EB75C8F119CC5D3A00EAFB68 /* cosmicbyte-square-big-crop.png */,
+				EB2D125819CC581700131F46 /* AppDelegate.swift */,
+				EB2D125A19CC581700131F46 /* ViewController.swift */,
+				EB2D125C19CC581700131F46 /* Main.storyboard */,
+				EB2D125F19CC581700131F46 /* Images.xcassets */,
+				EB2D125619CC581700131F46 /* Supporting Files */,
+			);
+			path = "Hack the North Demo";
+			sourceTree = "<group>";
+		};
+		EB2D125619CC581700131F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D125719CC581700131F46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB2D126819CC581700131F46 /* Hack the North DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D126B19CC581700131F46 /* Hack_the_North_DemoTests.swift */,
+				EB2D126919CC581700131F46 /* Supporting Files */,
+			);
+			path = "Hack the North DemoTests";
+			sourceTree = "<group>";
+		};
+		EB2D126919CC581700131F46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB2D126A19CC581700131F46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB2D125219CC581700131F46 /* Hack the North Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2D126F19CC581700131F46 /* Build configuration list for PBXNativeTarget "Hack the North Demo" */;
+			buildPhases = (
+				EB2D124F19CC581700131F46 /* Sources */,
+				EB2D125019CC581700131F46 /* Frameworks */,
+				EB2D125119CC581700131F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hack the North Demo";
+			productName = "Hack the North Demo";
+			productReference = EB2D125319CC581700131F46 /* Hack the North Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB2D126419CC581700131F46 /* Hack the North DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB2D127219CC581700131F46 /* Build configuration list for PBXNativeTarget "Hack the North DemoTests" */;
+			buildPhases = (
+				EB2D126119CC581700131F46 /* Sources */,
+				EB2D126219CC581700131F46 /* Frameworks */,
+				EB2D126319CC581700131F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB2D126719CC581700131F46 /* PBXTargetDependency */,
+			);
+			name = "Hack the North DemoTests";
+			productName = "Hack the North DemoTests";
+			productReference = EB2D126519CC581700131F46 /* Hack the North DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB2D124B19CC581700131F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CosmicByte;
+				TargetAttributes = {
+					EB2D125219CC581700131F46 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					EB2D126419CC581700131F46 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = EB2D125219CC581700131F46;
+					};
+				};
+			};
+			buildConfigurationList = EB2D124E19CC581700131F46 /* Build configuration list for PBXProject "Hack the North Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB2D124A19CC581700131F46;
+			productRefGroup = EB2D125419CC581700131F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB2D125219CC581700131F46 /* Hack the North Demo */,
+				EB2D126419CC581700131F46 /* Hack the North DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB2D125119CC581700131F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D125E19CC581700131F46 /* Main.storyboard in Resources */,
+				EB75C8F219CC5D3A00EAFB68 /* cosmicbyte-square-big-crop.png in Resources */,
+				EB75C8F619CC5E7C00EAFB68 /* button2.png in Resources */,
+				EB2D126019CC581700131F46 /* Images.xcassets in Resources */,
+				EB75C8F519CC5E7C00EAFB68 /* button1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D126319CC581700131F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB2D124F19CC581700131F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D125B19CC581700131F46 /* ViewController.swift in Sources */,
+				EB2D125919CC581700131F46 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB2D126119CC581700131F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB2D126C19CC581700131F46 /* Hack_the_North_DemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB2D126719CC581700131F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB2D125219CC581700131F46 /* Hack the North Demo */;
+			targetProxy = EB2D126619CC581700131F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB2D125C19CC581700131F46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB2D125D19CC581700131F46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB2D126D19CC581700131F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB2D126E19CC581700131F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB2D127019CC581700131F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Hack the North Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB2D127119CC581700131F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "Hack the North Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB2D127319CC581700131F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hack the North DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack the North Demo.app/Hack the North Demo";
+			};
+			name = Debug;
+		};
+		EB2D127419CC581700131F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hack the North DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack the North Demo.app/Hack the North Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB2D124E19CC581700131F46 /* Build configuration list for PBXProject "Hack the North Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D126D19CC581700131F46 /* Debug */,
+				EB2D126E19CC581700131F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2D126F19CC581700131F46 /* Build configuration list for PBXNativeTarget "Hack the North Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D127019CC581700131F46 /* Debug */,
+				EB2D127119CC581700131F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB2D127219CC581700131F46 /* Build configuration list for PBXNativeTarget "Hack the North DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB2D127319CC581700131F46 /* Debug */,
+				EB2D127419CC581700131F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB2D124B19CC581700131F46 /* Project object */;
+}

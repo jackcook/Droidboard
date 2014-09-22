@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4CDE6019CD911C009004FB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4CDE5F19CD911C009004FB /* main.m */; };
+		EB4CDE6319CD911C009004FB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4CDE6219CD911C009004FB /* AppDelegate.m */; };
+		EB4CDE6519CD911C009004FB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4CDE6419CD911C009004FB /* Images.xcassets */; };
+		EB4CDE6819CD911D009004FB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB4CDE6619CD911D009004FB /* MainMenu.xib */; };
+		EB4CDE7419CD911D009004FB /* DroidboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4CDE7319CD911D009004FB /* DroidboardTests.m */; };
+		EBBFB8C919CEAD1E00025E85 /* 128.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C319CEAD1E00025E85 /* 128.png */; };
+		EBBFB8CA19CEAD1E00025E85 /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C419CEAD1E00025E85 /* 16.png */; };
+		EBBFB8CB19CEAD1E00025E85 /* 256.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C519CEAD1E00025E85 /* 256.png */; };
+		EBBFB8CC19CEAD1E00025E85 /* 32.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C619CEAD1E00025E85 /* 32.png */; };
+		EBBFB8CD19CEAD1E00025E85 /* 512.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C719CEAD1E00025E85 /* 512.png */; };
+		EBBFB8CE19CEAD1E00025E85 /* 64.png in Resources */ = {isa = PBXBuildFile; fileRef = EBBFB8C819CEAD1E00025E85 /* 64.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB4CDE6E19CD911D009004FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB4CDE5219CD911C009004FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB4CDE5919CD911C009004FB;
+			remoteInfo = Droidboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB4CDE5A19CD911C009004FB /* Droidboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Droidboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CDE5E19CD911C009004FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4CDE5F19CD911C009004FB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB4CDE6119CD911C009004FB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB4CDE6219CD911C009004FB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB4CDE6419CD911C009004FB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB4CDE6719CD911D009004FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		EB4CDE6D19CD911D009004FB /* DroidboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DroidboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4CDE7219CD911D009004FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB4CDE7319CD911D009004FB /* DroidboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DroidboardTests.m; sourceTree = "<group>"; };
+		EBBFB8C319CEAD1E00025E85 /* 128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 128.png; sourceTree = "<group>"; };
+		EBBFB8C419CEAD1E00025E85 /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 16.png; sourceTree = "<group>"; };
+		EBBFB8C519CEAD1E00025E85 /* 256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256.png; sourceTree = "<group>"; };
+		EBBFB8C619CEAD1E00025E85 /* 32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 32.png; sourceTree = "<group>"; };
+		EBBFB8C719CEAD1E00025E85 /* 512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 512.png; sourceTree = "<group>"; };
+		EBBFB8C819CEAD1E00025E85 /* 64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 64.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4CDE5719CD911C009004FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CDE6A19CD911D009004FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4CDE5119CD911C009004FB = {
+			isa = PBXGroup;
+			children = (
+				EB4CDE5C19CD911C009004FB /* Droidboard */,
+				EB4CDE7019CD911D009004FB /* DroidboardTests */,
+				EB4CDE5B19CD911C009004FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4CDE5B19CD911C009004FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CDE5A19CD911C009004FB /* Droidboard.app */,
+				EB4CDE6D19CD911D009004FB /* DroidboardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4CDE5C19CD911C009004FB /* Droidboard */ = {
+			isa = PBXGroup;
+			children = (
+				EBBFB8C219CEAD1E00025E85 /* icons */,
+				EB4CDE6119CD911C009004FB /* AppDelegate.h */,
+				EB4CDE6219CD911C009004FB /* AppDelegate.m */,
+				EB4CDE6419CD911C009004FB /* Images.xcassets */,
+				EB4CDE6619CD911D009004FB /* MainMenu.xib */,
+				EB4CDE5D19CD911C009004FB /* Supporting Files */,
+			);
+			path = Droidboard;
+			sourceTree = "<group>";
+		};
+		EB4CDE5D19CD911C009004FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CDE5E19CD911C009004FB /* Info.plist */,
+				EB4CDE5F19CD911C009004FB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB4CDE7019CD911D009004FB /* DroidboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CDE7319CD911D009004FB /* DroidboardTests.m */,
+				EB4CDE7119CD911D009004FB /* Supporting Files */,
+			);
+			path = DroidboardTests;
+			sourceTree = "<group>";
+		};
+		EB4CDE7119CD911D009004FB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB4CDE7219CD911D009004FB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBBFB8C219CEAD1E00025E85 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				EBBFB8C319CEAD1E00025E85 /* 128.png */,
+				EBBFB8C419CEAD1E00025E85 /* 16.png */,
+				EBBFB8C519CEAD1E00025E85 /* 256.png */,
+				EBBFB8C619CEAD1E00025E85 /* 32.png */,
+				EBBFB8C719CEAD1E00025E85 /* 512.png */,
+				EBBFB8C819CEAD1E00025E85 /* 64.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4CDE5919CD911C009004FB /* Droidboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CDE7719CD911D009004FB /* Build configuration list for PBXNativeTarget "Droidboard" */;
+			buildPhases = (
+				EB4CDE5619CD911C009004FB /* Sources */,
+				EB4CDE5719CD911C009004FB /* Frameworks */,
+				EB4CDE5819CD911C009004FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Droidboard;
+			productName = Droidboard;
+			productReference = EB4CDE5A19CD911C009004FB /* Droidboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB4CDE6C19CD911D009004FB /* DroidboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4CDE7A19CD911D009004FB /* Build configuration list for PBXNativeTarget "DroidboardTests" */;
+			buildPhases = (
+				EB4CDE6919CD911D009004FB /* Sources */,
+				EB4CDE6A19CD911D009004FB /* Frameworks */,
+				EB4CDE6B19CD911D009004FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB4CDE6F19CD911D009004FB /* PBXTargetDependency */,
+			);
+			name = DroidboardTests;
+			productName = DroidboardTests;
+			productReference = EB4CDE6D19CD911D009004FB /* DroidboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4CDE5219CD911C009004FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = CosmicByte;
+				TargetAttributes = {
+					EB4CDE5919CD911C009004FB = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EB4CDE6C19CD911D009004FB = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EB4CDE5919CD911C009004FB;
+					};
+				};
+			};
+			buildConfigurationList = EB4CDE5519CD911C009004FB /* Build configuration list for PBXProject "Droidboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4CDE5119CD911C009004FB;
+			productRefGroup = EB4CDE5B19CD911C009004FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4CDE5919CD911C009004FB /* Droidboard */,
+				EB4CDE6C19CD911D009004FB /* DroidboardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4CDE5819CD911C009004FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBFB8CA19CEAD1E00025E85 /* 16.png in Resources */,
+				EBBFB8CB19CEAD1E00025E85 /* 256.png in Resources */,
+				EBBFB8CC19CEAD1E00025E85 /* 32.png in Resources */,
+				EBBFB8CE19CEAD1E00025E85 /* 64.png in Resources */,
+				EBBFB8C919CEAD1E00025E85 /* 128.png in Resources */,
+				EB4CDE6519CD911C009004FB /* Images.xcassets in Resources */,
+				EBBFB8CD19CEAD1E00025E85 /* 512.png in Resources */,
+				EB4CDE6819CD911D009004FB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CDE6B19CD911D009004FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4CDE5619CD911C009004FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CDE6319CD911C009004FB /* AppDelegate.m in Sources */,
+				EB4CDE6019CD911C009004FB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4CDE6919CD911D009004FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4CDE7419CD911D009004FB /* DroidboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB4CDE6F19CD911D009004FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB4CDE5919CD911C009004FB /* Droidboard */;
+			targetProxy = EB4CDE6E19CD911D009004FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB4CDE6619CD911D009004FB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4CDE6719CD911D009004FB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4CDE7519CD911D009004FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EB4CDE7619CD911D009004FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB4CDE7819CD911D009004FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Droidboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB4CDE7919CD911D009004FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Droidboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EB4CDE7B19CD911D009004FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroidboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Droidboard.app/Contents/MacOS/Droidboard";
+			};
+			name = Debug;
+		};
+		EB4CDE7C19CD911D009004FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DroidboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Droidboard.app/Contents/MacOS/Droidboard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4CDE5519CD911C009004FB /* Build configuration list for PBXProject "Droidboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CDE7519CD911D009004FB /* Debug */,
+				EB4CDE7619CD911D009004FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CDE7719CD911D009004FB /* Build configuration list for PBXNativeTarget "Droidboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CDE7819CD911D009004FB /* Debug */,
+				EB4CDE7919CD911D009004FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4CDE7A19CD911D009004FB /* Build configuration list for PBXNativeTarget "DroidboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4CDE7B19CD911D009004FB /* Debug */,
+				EB4CDE7C19CD911D009004FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4CDE5219CD911C009004FB /* Project object */;
+}
